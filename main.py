@@ -1,5 +1,6 @@
 num=str(input("enter any number(also works with text): "))
 n=0
-for i in num:
+
+while n < len(num):
     n+=1
-print(f"there are {n} chracters/digits in {num}")
+print(f"there are {n} chracters/digits in '{num}'")
